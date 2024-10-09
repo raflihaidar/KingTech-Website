@@ -6,5 +6,6 @@
         <livewire:service />
         <livewire:why-us />
         <livewire:portfolio/>
+        <livewire:testimoni />
     </body>
 </x-layouts.app>

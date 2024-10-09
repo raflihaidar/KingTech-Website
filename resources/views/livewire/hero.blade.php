@@ -1,7 +1,7 @@
-<header class="h-[80vh] w-screen bg-hero-pattern bg-cover">
+<header class="h-[90vh] w-screen bg-hero-pattern bg-cover bg-no-repeat">
     <section class="text-center text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-y-10">
         <p class="font-bold text-xl">Jasa Pengerjaan Proyek IT (Hardware dan Software)</p>
-        <h1 class="text-6xl font-extrabold w-full">Digital Transformation With</h1>
+        <h1 class="text-6xl font-extrabold w-screen">Digital Transformation With</h1>
         <h1 class="text-6xl font-extrabold w-full"> Smart Solutions</h1>
         <button class="flex items-center gap-x-2 mx-auto border border-white py-2 px-3 rounded-lg cursor-pointer">
             <figure>
@@ -10,7 +10,7 @@
             <p class="font-bold">Hubungi Admin</p>
         </button>
     </section>
-    <section class="w-[70%] bg-custom-2 absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-0 rounded-xl">
+    <section class="w-[70%] bg-custom-2 absolute bottom-0 left-1/2 -translate-x-1/2 rounded-xl">
         <ul class="flex justify-between py-10 px-20 text-white">
             <li class="text-center">
                 <p class="text-5xl mb-5">2</p>

@@ -1,4 +1,4 @@
-<nav class=" w-[90%] mx-auto flex justify-between items-center">
+<nav class=" w-full bg-white left-0 right-0 mx-auto flex justify-around items-center fixed top-0 z-30 shadow-lg">
     <figure class="flex items-center gap-x-5">
         <img src="{{ URL('images/logo.png') }}" alt="logo king tech">
         <figcaption>
