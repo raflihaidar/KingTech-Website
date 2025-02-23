@@ -3,3 +3,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Untuk browser berbasis WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Untuk Firefox */
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+/* Untuk Internet Explorer & Edge lama */
+body {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+}
+
+.service-item:hover svg,
+.service-item:focus svg {
+    transform: rotate(-90);
+    transition: transform 0.3s ease-in-out;
+}

@@ -8,6 +8,6 @@ class Hero extends Component
 {
     public function render()
     {
-        return view('livewire.hero');
+        return view("livewire.hero");
     }
 }

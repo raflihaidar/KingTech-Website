@@ -8,6 +8,6 @@ class WhyUs extends Component
 {
     public function render()
     {
-        return view('livewire.why-us');
+        return view("livewire.why-us");
     }
 }

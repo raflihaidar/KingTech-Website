@@ -1,5 +1,4 @@
-<x-layouts.app>
-    <x-slot:title>{{ $title }}</x-slot:title>
+<x-layouts.app title="King Tech">
     <body>
         <livewire:hero />
         <livewire:about />
@@ -7,5 +6,6 @@
         <livewire:why-us />
         <livewire:portfolio/>
         <livewire:testimoni />
+        <x-back-to-top/>
     </body>
 </x-layouts.app>
